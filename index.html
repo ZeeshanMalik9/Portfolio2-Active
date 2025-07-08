@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Zeeeshan Malik - Portfolio</title>
+    <link rel="stylesheet" href="index.css">
+    
+</head>
+
+<body style="background-color: black;">
+    <header>
+        <div class="navigation">
+            <div class="nameCotainer">
+                <p class="nametext" style="padding: 0; margin: 0;">ZEEESHAN MALIK</p>
+            </div>
+            <div class="menuContainer">
+                <a href="#home"><button onclick="scrollToSection('home')">Home</button></a>
+                <a href="#skills"><button onclick="scrollToSection('skills')">Skills</button></a>
+                <a href="#experience"><button onclick="scrollToSection('experience')">Experience</button></a>
+                <a href="#projects"><button onclick="scrollToSection('projects')">Projects</button></a>
+                <a href="#certification"><button onclick="scrollToSection('certification')">Certification</button></a>
+                <a href="#gallery"><button onclick="scrollToSection('gallery')">Gallery</button></a>
+                <a href="#contact"><button onclick="scrollToSection('contact')">Contact</button></a>
+            </div>
+            <div class="menuColorPicker">
+                <div class="colorCircleButton"></div>
+                <div class="menuColorList">
+                    <div class="skyblue" onclick="changeTheme('skyblue')"></div>
+                    <div class="yellow" onclick="changeTheme('yellow')"></div>
+                    <div class="black" onclick="changeTheme('black')"></div>
+                    <div class="gray" onclick="changeTheme('gray')"></div>
+                    <div class="orange" onclick="changeTheme('orange')"></div>
+                    <div class="greenYellow" onclick="changeTheme('greenYellow')"></div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <div class="mainContainer">
+
+        <!-- Home Page section -->
+        <section id="home" class="HomeContainer">
+            <p class="title">FULL STACK DEVELOPER</p>
+            <div class="honeButtons">
+                <button>Resume |
+                    <div class="buttonIcon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-download" viewBox="0 0 16 16">
+                            <path
+                                d="M.5 9.9a.5.5 0 0 1 .5.5v2.5a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1v-2.5a.5.5 0 0 1 1 0v2.5a2 2 0 0 1-2 2H2a2 2 0 0 1-2-2v-2.5a.5.5 0 0 1 .5-.5" />
+                            <path
+                                d="M7.646 11.854a.5.5 0 0 0 .708 0l3-3a.5.5 0 0 0-.708-.708L8.5 10.293V1.5a.5.5 0 0 0-1 0v8.793L5.354 8.146a.5.5 0 1 0-.708.708z" />
+                        </svg></div>
+                </button>
+                <button>Complement |
+                    <div class="buttonIcon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-envelope-paper-heart-fill" viewBox="0 0 16 16">
+                            <path fill-rule="evenodd"
+                                d="m3 7.5 3.5 2L8 8.75l1.5.75 3.5-2v-6A1.5 1.5 0 0 0 11.5 0h-7A1.5 1.5 0 0 0 3 1.5zM2 3.133l-.941.502A2 2 0 0 0 0 5.4v.313l2 1.173zm12 3.753 2-1.173V5.4a2 2 0 0 0-1.059-1.765L14 3.133zm-3.693 3.324L16 6.873v6.5zm5.634 4.274L8 10.072.059 14.484A2 2 0 0 0 2 16h12a2 2 0 0 0 1.941-1.516M5.693 10.21 0 13.372v-6.5zM8 1.982C9.664.309 13.825 3.236 8 7 2.175 3.236 6.336.31 8 1.982" />
+                        </svg></div>
+                </button>
+                <button>Contact Me |
+                    <div class="buttonIcon"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16"
+                            fill="currentColor" class="bi bi-person-lines-fill" viewBox="0 0 16 16">
+                            <path
+                                d="M6 8a3 3 0 1 0 0-6 3 3 0 0 0 0 6m-5 6s-1 0-1-1 1-4 6-4 6 3 6 4-1 1-1 1zM11 3.5a.5.5 0 0 1 .5-.5h4a.5.5 0 0 1 0 1h-4a.5.5 0 0 1-.5-.5m.5 2.5a.5.5 0 0 0 0 1h4a.5.5 0 0 0 0-1zm2 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1zm0 3a.5.5 0 0 0 0 1h2a.5.5 0 0 0 0-1z" />
+                        </svg></div>
+                </button>
+            </div>
+            <div class="choosePageColor">
+                <div class="skyblue" onclick="changeTheme('skyblue')"></div>
+                <div class="yellow" onclick="changeTheme('yellow')"></div>
+                <div class="black" onclick="changeTheme('black')"></div>
+                <div class="gray" onclick="changeTheme('gray')"></div>
+                <div class="orange" onclick="changeTheme('orange')"></div>
+                <div class="greenYellow" onclick="changeTheme('greenYellow')"></div>
+            </div>
+        </section>
+
+        <!-- <div class="divSpace"></div> -->
+
+        <!-- Skill section -->
+        <section id="skills" class="skillContainer">
+            <div class="sectionName">
+                <p class="secName">SKILLS</p>
+            </div>
+            <div class="skillWrapper">
+                <button class="slider-arrow prev-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                    </svg>
+                </button>
+                <div class="skillSlider">
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg" alt="HTML5"/>
+                        </div>
+                        <h3>HTML5</h3>
+                        <p>Advanced Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original.svg" alt="CSS3"/>
+                        </div>
+                        <h3>CSS3</h3>
+                        <p>Advanced Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-original.svg" alt="JavaScript"/>
+                        </div>
+                        <h3>JavaScript</h3>
+                        <p>Intermediate Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" alt="React"/>
+                        </div>
+                        <h3>React</h3>
+                        <p>Intermediate Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/nodejs/nodejs-original.svg" alt="Node.js"/>
+                        </div>
+                        <h3>Node.js</h3>
+                        <p>Intermediate Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mongodb/mongodb-original.svg" alt="MongoDB"/>
+                        </div>
+                        <h3>MongoDB</h3>
+                        <p>Intermediate Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/git/git-original.svg" alt="Git"/>
+                        </div>
+                        <h3>Git</h3>
+                        <p>Intermediate Level</p>
+                    </div>
+                    <div class="skilBox">
+                        <div class="skill-icon">
+                            <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" alt="Docker"/>
+                        </div>
+                        <h3>Docker</h3>
+                        <p>Basic Level</p>
+                    </div>
+                </div>
+                <button class="slider-arrow next-arrow">
+                    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                        <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                    </svg>
+                </button>
+            </div>
+        </section>
+
+    <!-- Experience section -->
+    <section id="experience" class="experience">
+        <div class="sectionName">
+            <p class="secName">EXPERIENCE</p>
+        </div>
+        <div class="experienceWrapper">
+            <button class="slider-arrow prev-arrow" id="expPrevBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+            </button>
+            <div class="experienceSlider">
+                <!-- Experience Card 1 -->
+                <div class="experienceCard">
+                    <div class="exp-logo">
+                        <img src="./images-removebg-preview.png" alt="Company Logo">
+                    </div>
+                    <div class="exp-content">
+                        <div class="exp-header">
+                            <h3>Full Stack Developer Intern</h3>
+                            <span class="exp-duration">Jan 2023 - Present</span>
+                        </div>
+                        <h4>Tech Company Name</h4>
+                        <ul class="exp-details">
+                            <li>Developed and maintained web applications using React.js and Node.js</li>
+                            <li>Implemented responsive designs and improved user experience</li>
+                            <li>Collaborated with team members using Git and Agile methodologies</li>
+                        </ul>
+                        <div class="exp-tags">
+                            <span>Java</span>
+                            <span>Mysql</span>
+                            <span>Programming</span>
+                            <span>JEE</span>
+                            <span>HTML/CSS</span>
+                            <span>JavaScript</span>
+                        </div>
+                    </div>
+                </div>
+
+           
+               
+            </div>
+            <button class="slider-arrow next-arrow" id="expNextBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+    <!-- Projects section -->
+    <section id="projects" class="projects">
+        <div class="sectionName">
+            <p class="secName">PROJECTS</p>
+        </div>
+        <div class="projectsWrapper">
+            <button class="slider-arrow prev-arrow" id="projPrevBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M11.354 1.646a.5.5 0 0 1 0 .708L5.707 8l5.647 5.646a.5.5 0 0 1-.708.708l-6-6a.5.5 0 0 1 0-.708l6-6a.5.5 0 0 1 .708 0z"/>
+                </svg>
+            </button>
+            <div class="projectsSlider">
+                <!-- Project Card 1 -->
+                <div class="projectCard">
+                    <img src="./projimg.png" alt="Portfolio Website" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Portfolio Website</h3>
+                        <p class="project-description">A modern, responsive portfolio website showcasing my projects and skills with smooth animations and interactive elements.</p>
+                        
+                        <div class="projButtonContainer">
+                            <button class="projButton">Github</button>
+                            <button class="projButton">Live</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 2 -->
+                <div class="projectCard">
+                    <img src="./projimg.png" alt="Medicine Transport System" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Overhead Track System</h3>
+                        <p class="project-description">An automated medicine transportation system using overhead tracks for efficient hospital logistics and delivery.</p>
+                       
+                        <div class="projButtonContainer">
+                            <button class="projButton">Github</button>
+                            <button class="projButton">Live</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 3 -->
+                <div class="projectCard">
+                    <img src="./projimg.png" alt="E-Commerce Platform" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">E-Commerce Platform</h3>
+                        <p class="project-description">A full-stack e-commerce platform with user authentication, product management, and payment integration.</p>
+                        
+                        <div class="projButtonContainer">
+                            <button class="projButton">Github</button>
+                            <button class="projButton">Live</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 4 -->
+                <div class="projectCard">
+                    <img src="./projimg.png" alt="Task Management App" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title" >Task Management App</h3>
+                        <p class="project-description">A collaborative task management application with real-time updates and team collaboration features.</p>
+                        
+                        <div class="projButtonContainer">
+                            <button class="projButton">Github</button>
+                            <button class="projButton">Live</button>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Project Card 5 -->
+                <div class="projectCard">
+                    <img src="./projimg.png" alt="Weather Dashboard" class="project-image">
+                    <div class="project-content">
+                        <h3 class="project-title">Weather Dashboard</h3>
+                        <p class="project-description">A weather application that provides real-time weather data and forecasts using external APIs.</p>
+                        
+                        <div class="projButtonContainer">
+                            <button class="projButton">Github</button>
+                            <button class="projButton">Live</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="slider-arrow next-arrow" id="projNextBtn">
+                <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 16 16">
+                    <path fill-rule="evenodd" d="M4.646 1.646a.5.5 0 0 1 .708 0l6 6a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708L10.293 8 4.646 2.354a.5.5 0 0 1 0-.708z"/>
+                </svg>
+            </button>
+        </div>
+    </section>
+
+
+
+
+    <!-- Cirtification section -->
+    <section id="certification" class="certification">
+        <div class="sectionName">
+            <p class="secName">CERTIFICATION</p>
+        </div>
+        <div class="certificationWrapper">
+            <div class="cirtificateCard">
+                <div class="cert-img-placeholder"></div>
+                <div class="cert-content">
+                    <h3>Web Development</h3>
+                    <p>Certification details here</p>
+                </div>
+            </div>
+            <div class="cirtificateCard">
+                <div class="cert-img-placeholder"></div>
+                <div class="cert-content">
+                    <h3>React Development</h3>
+                    <p>Certification details here</p>
+                </div>
+            </div>
+            <div class="cirtificateCard">
+                <div class="cert-img-placeholder"></div>
+                <div class="cert-content">
+                    <h3>Node.js Development</h3>
+                    <p>Certification details here</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+    <!-- Gallery section -->
+    <section id="gallery" class="gallery">
+        <div class="sectionName">
+            <p class="secName">SKILL</p>
+        </div>
+        <div class="galleryWrapper">
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+            <div class="galleryCard" onclick="openGalleryModal(this)"></div>
+        </div>
+    </section>
+
+
+
+    <!-- Contact section -->
+    <section id="contact" class="contact">
+        <div class="sectionName">
+            <p class="secName">SKILL</p>
+        </div>
+        <div class="contactWrapper">
+            <div class="contactCard">
+                <h3>Contact Information</h3>
+                <p>Email: example@email.com</p>
+                <p>Phone: +1234567890</p>
+                <p>Location: City, Country</p>
+            </div>
+            <div class="contactCard">
+                <h3>Send Message</h3>
+                <form id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+            <div class="contactCard">
+                <h3>Send Complement</h3>
+                <form id="complementForm">
+                    <input type="text" placeholder="Your Name (Optional)">
+                    <textarea rows="5" placeholder="Your Complement" required></textarea>
+                    <button type="submit">Send Complement</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    </div>
+</div>
+
+    <footer>
+        <div class="footerContainer">
+            <div class="sectionName">
+                <p class="secName">SKILL</p>
+            </div>
+            <div class="footerText">
+                <p>2025 Zeeeshan Malik. All rights reserved.</p>
+            </div>
+            <div class="footerSocial">
+                <a href="https://www.linkedin.com/in/zeeeshan-malik-b2b199272/" target="_blank">
+                    <div class="social-icon">in</div>
+                </a>
+                <a href="https://www.instagram.com/zeeeshan_malik/" target="_blank">
+                    <div class="social-icon">ig</div>
+                </a>
+                <a href="https://www.facebook.com/zeeeshan.malik.5" target="_blank">
+                    <div class="social-icon">fb</div>
+                </a>
+                <a href="https://www.twitter.com/zeeeshan_malik" target="_blank">
+                    <div class="social-icon">tw</div>
+                </a>
+            </div>
+        </div>
+    </footer>
+
+    <script src="index.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
